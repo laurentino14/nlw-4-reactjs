@@ -82,6 +82,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 0 3rem;
 
         border: 0;
         border-radius: 5px;
@@ -95,11 +96,13 @@
 }
 
 .challengeActive footer button.challengeFailedButton {
-        background: var(--red)
+        background: var(--red);
+        width: 100%;
 }
 
 .challengeActive footer button.challengeSucceededButton {
-        background: var(--green)
+        background: var(--green);
+        width: 100%;
 }
 
 .challengeActive footer button:hover {

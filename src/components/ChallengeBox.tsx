@@ -1,19 +1,32 @@
 import styles from "../styles/components/ChallengeBox.module.css";
 import {FaLevelUpAlt} from "react-icons/fa";
+import {useContext} from "react";
+import {ChallengesContext} from "../contexts/ChallengesContext";
+import Image from "next/image";
 export function ChallengeBox() {
-  const hasActiveChallenge = true;
+  const {activeChallenge, resetChallenge} = useContext(ChallengesContext);
 
   return (
     <div className={styles.challengeBoxContainer}>
-      {hasActiveChallenge ? (
+      {activeChallenge ? (
         <div className={styles.challengeActive}>
-          <header>Ganhe 400 xp</header>
+          <header>Ganhe {activeChallenge.amount} xp</header>
           <main>
+            <Image
+              src={`/icons/${activeChallenge.type}.png`}
+              alt={`Ilustracao de um exercicio para o/os ${activeChallenge.type}.`}
+              width='100%'
+              height='100%'
+            />
             <strong>Novo desafio</strong>
-            <p>Levante e faca uma caminhada de 3 minutos.</p>
+            <p>{activeChallenge.description}</p>
           </main>
           <footer>
-            <button type='button' className={styles.challengeFailedButton}>
+            <button
+              type='button'
+              onClick={resetChallenge}
+              className={styles.challengeFailedButton}
+            >
               Falhei
             </button>
             <button type='button' className={styles.challengeSucceededButton}>
