@@ -57,13 +57,13 @@ const {/o que quero pegar do contexto/} = useContext(Context)
 
 [NLW#4 - Trilha ReactJS](https://www.notion.so/NLW-4-Trilha-ReactJS-1d05401b693e431fa2d276b6fa540ef7)
 
+![image](https://user-images.githubusercontent.com/83848032/169718063-a2cda5ca-4edc-492e-8840-36b66e43f4cb.png)
 
-
-# Na Prática
+# Na Prática - Projeto da Trilha ReactJS - NLW#4
 
 ---
 
-![image](https://user-images.githubusercontent.com/83848032/169718063-a2cda5ca-4edc-492e-8840-36b66e43f4cb.png)
+
 
 **[Abrir projeto](https://moveit-nlw4-05-22.vercel.app/)**
 
