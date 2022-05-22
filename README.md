@@ -63,7 +63,7 @@ const {/o que quero pegar do contexto/} = useContext(Context)
 
 ---
 
-![Untitled](NLW#4%20-%20Trilha%20ReactJS%20b64c2eb66e6e4e0db0bd955720559d9c/Untitled.png)
+![image](https://user-images.githubusercontent.com/83848032/169718063-a2cda5ca-4edc-492e-8840-36b66e43f4cb.png)
 
 **[Abrir projeto](https://moveit-nlw4-05-22.vercel.app/)**
 
