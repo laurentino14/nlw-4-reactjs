@@ -65,9 +65,8 @@ const {/o que quero pegar do contexto/} = useContext(Context)
 
 
 
-**[Abrir projeto](https://moveit-nlw4-05-22.vercel.app/)**
+**[Abrir Deploy](https://moveit-nlw4-05-22.vercel.app/)**
 
-**[Repositório](https://github.com/laurentino14/nlw-4-reactjs)**
 
 - ChallengesContexts.tsx  -  `Criação da base do Contexto`
     
